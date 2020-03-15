@@ -1,0 +1,103 @@
+.app {
+  min-height: 100vh;
+  background:  #52C4B9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("internshipmobile.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.connect{
+  height: 470px;
+  width: 450px;
+  background: #2E4158;
+  border-radius: 30px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+
+.login{
+  background-color: #333;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 50;
+  width: 110px;
+  height: 43px;
+  border: none;
+  position: absolute;
+  right: 50%;
+  left:35%;
+  bottom: 10%;
+}
+
+.login:hover{
+  background: #61DAFB;
+  color:#fff;
+}
+
+.my-form{
+  padding:20px;
+}
+
+.my-form label{
+  display:block;
+}
+
+.labelcolor{
+  color : #52C4B9;
+}
+
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 50;
+  padding: 1px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.FormField__Input::placeholder {
+  color: #616E7F;
+}
+
+a {
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  margin: 10 15px;
+  padding: 10px;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: white;
+}
+
+a:any-link {
+  color: black;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #61DAFB;
+  color: #222;
+}
+
+.fixed_position{
+  position: fixed;
+}
+
+.position_change{
+  position: relative;
+  top: 100px;
+}
